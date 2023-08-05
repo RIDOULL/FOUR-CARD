@@ -1,0 +1,152 @@
+
+@media (min-width:700px){
+
+body{
+    background-color: hsl(0, 0%, 98%);
+    font-family: 'poppins';
+    margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.right{
+    float: right;
+}
+.frame{
+    width: 280px;
+    height: 200px;
+    border: 1px solid hsl(0, 0%, 100%);
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 10px 1px hsl(229, 6%, 66%);
+    border-radius: 5px;
+    background-color: white;
+}
+.su{border-top: 5px solid hsl(180, 62%, 55%);
+position: relative;
+top: 100px;
+left: -170px;
+}
+.bu{
+border-top: 5px solid hsl(0, 78%, 62%);  
+    position: relative;
+    top: -250px;
+    left: 180px;
+}
+.ma{
+    border-top: 5px solid hsl(34, 97%, 64%);
+    position: relative;
+    top: -250px;
+    left: 180px;
+}
+.to{
+    border-top: 5px solid hsl(212, 86%, 64%);
+    position: relative;
+    top: -570px;
+    left: 530px;
+}
+.header{
+    font-weight: 400;
+    color: hsl(234, 12%, 34%);
+}
+.para{
+    font-weight: 200;
+    color: hsl(229, 6%, 66%);
+}
+.first{
+font-weight: 200;
+text-align: center;
+font-size: 30px;
+}
+.second{
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    text-align: center;
+    font-size: 30px;
+    margin-top: -30px;
+}
+.article{
+    color: hsl(229, 6%, 66%);
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: -5px;
+}
+.article, .para{
+    font-size: 15px;
+}
+}
+@media (max-width:700px){
+    body{
+        width: 375px;
+        font-family: 'poppins';
+    }
+    .right{
+        float: right;
+    }
+    .su{border-top: 5px solid hsl(180, 62%, 55%);
+        position: static;
+        top: 0px;
+        left: 0px;
+        }
+        .bu{
+        border-top: 5px solid hsl(0, 78%, 62%);  
+            position: static;
+            top: 0px;
+            left: 0px;
+        }
+        .ma{
+            border-top: 5px solid hsl(34, 97%, 64%);
+            position: static;
+            top: 0px;
+            left: 0px;
+        }
+        .to{
+            border-top: 5px solid hsl(212, 86%, 64%);
+            position: static;
+            top: 0px;
+            left: 0px;
+        }
+        .frame{
+            width: 280px;
+            height: 200px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            box-shadow: 1px 1px 10px 1px hsl(229, 6%, 66%);
+            border-radius: 5px;
+            background-color: white;
+        }
+    .header{
+        font-weight: 400;
+        color: hsl(234, 12%, 34%);
+    }
+    .para{
+        font-weight: 200;
+        color: hsl(229, 6%, 66%);
+    }
+    .first{
+    font-weight: 200;
+    text-align: center;
+    font-size: 30px;
+    }
+    .second{
+        font-weight: 600;
+        color: hsl(234, 12%, 34%);
+        text-align: center;
+        font-size: 30px;
+        margin-top: -30px;
+    }
+    .article{
+        color: hsl(229, 6%, 66%);
+        font-weight: 200;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: -5px;
+    }
+    .article, .para{
+        font-size: 15px;
+    }
+    }
